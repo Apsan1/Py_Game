@@ -6,7 +6,12 @@ import random
 
 def get_word():
     ''' Get a random word from the list of words '''
-    words = ['apple', 'banana', 'orange', 'grape', 'mango', 'strawberry', 'carrot']
+    #make a list of words
+    words = ['apple', 'banana', 'orange', 'coconut', 'strawberry', 'lime', 'grapefruit', 'lemon', 'kumquat', 'blueberry', 'melon',
+             'raspberry', 'peach', 'nectarine', 'apricot', 'avocado', 'pineapple', 'olive', 'plum', 'watermelon', 'cherry',
+             'pomegranate', 'cantaloupe', 'fig', 'honeydew', 'kiwi', 'tangerine', 'jackfruit', 'papaya', 'persimmon', 'lime',
+             'lychee', 'grape', 'guava', 'mango', 'date', 'breadfruit', 'durian', 'starfruit', 'salak', 'longan', 'rambutan'
+            ]
     return random.choice(words)
 
 def get_guess():
